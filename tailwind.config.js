@@ -5,6 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      "Cinzel": ['Cinzel', 'serif']
+    },
+
     container: {
       center: true,
       padding: {
@@ -16,17 +20,18 @@ export default {
       },
     },
 
-    backgroundImage:{
-      'buttonBG':'linear-gradient(90deg,#835D23 0%, #B58130  100%)',
-      'hoverButtonBG':'linear-gradient(90deg,#B58130 0%, #835D23  100%)',
+    backgroundImage: {
+      'buttonBG': 'linear-gradient(90deg,#835D23 0%, #B58130  100%)',
+      'hoverButtonBG': 'linear-gradient(90deg,#B58130 0%, #835D23  100%)',
 
-   },
-  //  : {
-  //   'custom-gradient': 'linear-gradient(90deg, var(--custom-start) 0%, var(--custom-end) 100%)',
-  // },
+    },
 
 
-    extend: {},
+    extend: {
+      colors: {
+        'BlackColor': '#151515',
+      },
+    },
   },
   plugins: [require("daisyui")],
 }

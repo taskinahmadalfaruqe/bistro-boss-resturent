@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 const UserLayout = () => {
     return (
-        <div>
+        <div className="font-Cinzel text-BlackColor">
             <Outlet></Outlet>
         </div>
     );
