@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import Navbar from "../../Components/Navbar/Navbar";
 
 const HomePage = () => {
     return (
@@ -6,7 +7,7 @@ const HomePage = () => {
             <Helmet>
                 <title>Bistro Boss || Home</title>
             </Helmet>
-            Home Page
+            <Navbar></Navbar>
         </div>
     );
 };
