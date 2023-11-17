@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     fontFamily: {
-      "Cinzel": ['Cinzel', 'serif']
+      "Cinzel": ['Cinzel', 'serif'],
+      "Inter": ['Inter', 'sans-serif']
     },
 
     container: {
@@ -30,6 +31,9 @@ export default {
     extend: {
       colors: {
         'BlackColor': '#151515',
+        'WhiteColor': '#fff',
+        'YellowColor': '#EEFF25',
+        'PrimaryColor': '#D1A054',
       },
     },
   },
