@@ -78,11 +78,6 @@ const LoginPage = () => {
                                     name="password"
                                     id="password"
                                 />
-                                <label className="label">
-                                    <a href="#" className="label-text-alt link link-hover">
-                                        Forgot password?
-                                    </a>
-                                </label>
                             </div>
 
                             <div className="form-control">
@@ -106,11 +101,6 @@ const LoginPage = () => {
                                     name="capcharCode"
                                     id="capcharCode"
                                 />
-                                <label className="label">
-                                    <a href="#" className="label-text-alt link link-hover">
-                                        Forgot password?
-                                    </a>
-                                </label>
                             </div>
 
                             <div className="text-center ">
