@@ -34,6 +34,7 @@ export default {
         'WhiteColor': '#fff',
         'YellowColor': '#EEFF25',
         'PrimaryColor': '#D1A054',
+        'HeddingColor': '#D99904',
       },
     },
   },
