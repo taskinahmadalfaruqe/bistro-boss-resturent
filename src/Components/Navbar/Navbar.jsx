@@ -62,7 +62,7 @@ const Navbar = () => {
     // </>
 
     return (
-        <div className="navbar  z-10 bg-opacity-30  bg-black text-white sticky top-0 left-0">
+        <div className="navbar fixed z-10 bg-opacity-70  bg-black text-white  top-0 left-0">
             <div className="container mx-auto font-Cinzel">
                 <div className="navbar-start">
                     <div className="dropdown hidden xl:flex">
