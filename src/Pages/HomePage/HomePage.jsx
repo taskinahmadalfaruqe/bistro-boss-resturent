@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import Navbar from "../../Components/Navbar/Navbar";
 import BannerComponent from "../../Components/Banner/BannerComponent";
 import OnlineOrder from "../../Components/OnlineOrder/OnlineOrder";
+import Footer from "../../Components/Footer/Footer";
 
 const HomePage = () => {
     return (
@@ -17,6 +18,9 @@ const HomePage = () => {
             </div>
             <div className="mt-10 md:mt-14">
                 <OnlineOrder></OnlineOrder>
+            </div>
+            <div>
+                <Footer></Footer>
             </div>
         </div>
     );
