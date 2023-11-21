@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet-async";
 
 const MenuPage = () => {
     return (
         <div>
-            MenuPage
+            <Helmet>
+            <title>Bistro Boss || Menu</title>
+            </Helmet>
+            Menu Page
         </div>
     );
 };
