@@ -19,7 +19,8 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.18.0",
     "react-simple-captcha": "^9.3.0",
-    "sweetalert2": "^11.10.0"
+    "sweetalert2": "^11.10.0",
+    "swiper": "^11.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

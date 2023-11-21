@@ -3,6 +3,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import BannerComponent from "../../Components/Banner/BannerComponent";
 import OnlineOrder from "../../Components/OnlineOrder/OnlineOrder";
 import Footer from "../../Components/Footer/Footer";
+import Category from "../../Components/Category/Category";
 
 const HomePage = () => {
     return (
@@ -20,8 +21,12 @@ const HomePage = () => {
                 <OnlineOrder></OnlineOrder>
             </div>
             <div>
+                <Category></Category>
+            </div>
+            <div>
                 <Footer></Footer>
             </div>
+
         </div>
     );
 };
