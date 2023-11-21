@@ -3,3 +3,6 @@
     justify-content: center;
     align-items: center;
 }
+.carousel.carousel-slider p {
+    display: none;
+}
